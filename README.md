@@ -20,7 +20,9 @@ The following steps are involved in the process of creation of graphs:
 2. Fine tuning on the Semeval 2010 relation extraction paper.
 3. Based on spacy's linguistic features, we can automatically annotate and infer the relationship between  the extracted entities using the pretrained model.
 
-
+Training Stages:
+1. The objective here is that given a relation pair, predict a relation type from a fixed dictionary of relation types. For ex: "Cause-Effect" is one among the fixed dictionary of relation types from the SemEval 2010 Task 8.
+2. 
 
 
 --contd...
